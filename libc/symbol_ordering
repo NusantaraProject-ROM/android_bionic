@@ -154,8 +154,6 @@ _ZGVZ8towupperE9u_toupper
 _ZL10gAllocated
 _ZL11gAllocLimit
 _ZL13g_atfork_list
-_ZL6g_lock
-_ZL6g_tags
 je_opt_stats_print_opts
 nuls
 precsize_ntoa.retbuf
