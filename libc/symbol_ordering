@@ -193,6 +193,5 @@ _res_cache_list
 __libc_globals
 tmpnam.buf
 je_extents_rtree
-_nres
 je_arenas
 je_extent_mutex_pool

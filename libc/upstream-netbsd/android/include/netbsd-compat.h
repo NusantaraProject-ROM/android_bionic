@@ -18,7 +18,7 @@
 #define _BIONIC_NETBSD_COMPAT_H_included
 
 #define _BSD_SOURCE
-#define _GNU_SOURCE
+#define _GNU_SOURCE 1
 
 // NetBSD uses _DIAGASSERT to null-check arguments and the like,
 // but it's clear from the number of mistakes in their assertions
