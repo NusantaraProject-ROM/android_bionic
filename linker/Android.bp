@@ -9,6 +9,7 @@ cc_library_static {
     cflags: [
         "-Wall",
         "-Werror",
+	"-O3",
     ],
 
     // We need to access Bionic private headers in the linker.
@@ -212,7 +213,7 @@ cc_defaults {
         },
     },
 
-    cppflags: ["-Wold-style-cast"],
+    cppflags: ["-Wold-style-cast", "-O3"],
 
     // we are going to link libc++_static manually because
     // when stl is not set to "none" build system adds libdl
@@ -368,6 +369,7 @@ cc_library {
         "-Wextra",
         "-Wunused",
         "-Werror",
+	"-O3",
     ],
     stl: "none",
 
